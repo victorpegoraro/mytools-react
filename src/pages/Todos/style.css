@@ -1,0 +1,47 @@
+
+
+.blue{
+  color: #61dafb;
+}
+
+.back{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.inputtext{
+  background-color: transparent;
+  color: #61dafb ;
+  border: none ;
+  border-bottom: 2px solid #61dafb ;
+  padding: 3px 2px ;
+  outline: none;
+  font-size: 18px ;
+}
+
+.btninput{
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #61dafb ;
+  color: #61dafb ;
+  padding: 3px 40px ;
+  border-radius: 3px ;
+  font-size: 18px ;
+  margin-left: 5px ;
+}
+.btninput:hover{
+  background-color: #333;
+}
+
+.btnx{
+  cursor: pointer;
+  margin-left: 5px ;
+  background-color: transparent;
+  border: none;
+  color: tomato ;
+}
